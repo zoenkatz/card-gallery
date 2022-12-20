@@ -1,0 +1,114 @@
+@media only screen and (min-width: 0px) and (max-width: 720px)  {
+  .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .board-card {
+      padding: 20px;
+      margin: 10px;
+      width: 100px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid black;
+
+      .board-card-info-wrapper {
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+
+        .board-card-info {
+          height: 15px;
+          width: 15px;
+          border: 1px solid;
+          background-color: #d4dbe0;
+          border-radius: 10px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-width: 720px) {
+
+  .board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .board-cards {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .board-card {
+        padding: 20px;
+        margin: 10px;
+        width: 100px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+
+
+        .board-card-info-wrapper {
+
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-end;
+          width: 100%;
+
+          .board-card-info {
+            height: 15px;
+            width: 15px;
+            border: 1px solid;
+            background-color: #d4dbe0;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            margin-bottom: 5px;
+          }
+        }
+
+      }
+    }
+  }
+}
